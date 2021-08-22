@@ -1,0 +1,48 @@
+<ion-content>
+  <div>
+    <header>
+      <section class="header-profile">
+        <article>
+          <ion-img src="../../assets/logo.svg"></ion-img>
+          <ion-label>
+            Bem vinda, DGR
+          </ion-label>
+        </article>
+        <article>
+          <ion-button routerLink="/new-incident">Cadastrar novo caso</ion-button>
+          <ion-button>
+            <ion-icon name="power-outline"></ion-icon>
+          </ion-button>
+        </article>
+      </section>
+    </header>
+    <section class="conteudo-profile">
+      <article>
+        <ion-label>
+          <h1>Casos Cadastrados</h1>
+        </ion-label>
+        <div>
+          <ion-grid>
+            <ion-row>
+              <ion-col>
+                <app-card-casos></app-card-casos>
+              </ion-col>
+              <ion-col>
+                <app-card-casos></app-card-casos>
+              </ion-col>
+            </ion-row>
+            <ion-row>
+              <ion-col>
+                <app-card-casos></app-card-casos>
+              </ion-col>
+              <ion-col>
+                <app-card-casos></app-card-casos>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </div>
+      </article>
+    </section>
+  </div>
+
+</ion-content>

@@ -7,29 +7,28 @@
             <ion-img src="../../assets/logo.svg"></ion-img>
           </article>
           <article>
-            <h1>Cadastrar</h1>
+            <h1>Cadastrar novo caso</h1>
             <ion-label class="ion-text-wrap">
-              Faça seu cadastro, entre na plataforma e
-              ajude pessoas a encontrar os casos da sua ONG.
+              Descreva o caso detalhadamente para encontrar um herói que possa resolvê-lo.
             </ion-label>
           </article>
-          <ion-button class="link" fill="clear" routerLink="/">
+          <ion-button class="link" fill="clear" routerLink="/profile">
             <ion-icon name="arrow-back-outline"></ion-icon>
-            <ion-label>Voltar Para Logon</ion-label>
+            <ion-label>Voltar Para home</ion-label>
           </ion-button>
         </section>
+
         <section>
           <form>
             <div>
-              <ion-input placeholder="Nome da ONG"></ion-input>
-              <ion-input placeholder="E-mail"></ion-input>
-              <ion-input placeholder="WhatsApp"></ion-input>
-              <div class="endereco">
-                <ion-input placeholder="Cidade"></ion-input>
-                <ion-input placeholder="UF" class="estado" maxlength="2" type="text"></ion-input>
-              </div>
+              <ion-input placeholder="Título do caso"></ion-input>
+              <ion-textarea placeholder="Descrição"></ion-textarea>
+              <ion-input placeholder="Valor em reais" type="number"></ion-input>
             </div>
             <div>
+              <ion-button class="buttonLogin" expand="block" fill="clear">
+                Cancelar
+              </ion-button>
               <ion-button class="buttonLogin" expand="block" fill="clear">
                 Cadastrar
               </ion-button>

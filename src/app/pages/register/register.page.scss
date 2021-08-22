@@ -1,0 +1,51 @@
+.conteudo {
+    // margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ion-card-content {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.descricao-cadastrar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    ;
+}
+
+section {
+    width: 50%;
+}
+
+ion-img {
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+ion-input {
+    width: 100%;
+}
+
+.endereco {
+    display: flex;
+}
+
+.estado {
+    max-width: 25%;
+    margin-left: 10px;
+}
+
+h1 {
+    padding-bottom: 4%;
+}
