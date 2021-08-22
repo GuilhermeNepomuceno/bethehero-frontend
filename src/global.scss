@@ -29,6 +29,40 @@
 
 // INICIO CSS GLOBAL
 
+
+* {
+  font: 400 18px Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.conteudo {
+  // margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+ion-card-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: #333;
+}
+
+ion-card {
+  padding: 70px;
+}
+
 // * {
 //     margin: 0;
 //     padding: 0;
@@ -51,15 +85,15 @@
 //     cursor: pointer;
 //   }
   
-//   form ion-input {
-//     width: 100%;
-//     height: 60px;
-//     color: #333;
-//     border: 1px solid #dcdcd6;
-//     border-radius: 8px;
-//     padding: 0 24px;
-//     margin-bottom: 10px;
-//   }
+  ion-input, ion-textarea {
+    width: 100%;
+    height: 60px;
+    color: #333;
+    border: 1px solid #dcdcd6;
+    border-radius: 8px;
+    padding: 0 24px;
+    margin-bottom: 10px;
+  }
   
 //   form textarea {
 //     width: 100%;
@@ -135,30 +169,33 @@
 //     margin-top: 100px;
 //   }
   
-//   .logon-container form h1 {
-//     font-size: 32px;
-//     margin-bottom: 32px;
-//   }
   
-//  .link {
-//     display: flex;
-//     align-items: center;
-//     margin-top: 40px;
-//     color: #41414d;
-//     font-size: 18px;
-//     text-decoration: none;
-//     font-weight: 500;
-//     transition: opacity 0.2s;
-//   }
+ a {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #41414d;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
   
 //   .logon-container form .link {
 //     margin-right: 8px;
 //   }
   
-//   .logon-container form .link:hover {
-//     opacity: 0.8;
-//   }
+  a:hover {
+    opacity: 0.8;
+  }
 
-//   ion-icon {
-//       color: #e02041;
-//   }
+  ion-icon {
+      color: #e02041;
+  }
+
+  ion-button {
+    --background:#e02041;
+    --color: white;
+  }
+
+

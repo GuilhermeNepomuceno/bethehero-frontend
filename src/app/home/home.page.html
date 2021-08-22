@@ -2,29 +2,33 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <div class="logon-container">
-    <div>
-      <div>
-        <img src="../../assets/logo.svg">
-      </div>
-      <form>
-        <ion-label>
-          <h1>
-            Faça seu Logon
-          </h1>
-        </ion-label>
-        <ion-input placeholder="Sua ID"></ion-input>
-        <ion-button class="buttonLogin" expand="block" fill = "clear">Entrar</ion-button>
-      </form>
-      <div>
-        <ion-button class="link" fill = "clear" routerLink="/register">
-          <ion-icon name="log-in"></ion-icon>
-          <ion-label>Não tenho cadastro</ion-label>
-        </ion-button>
-      </div>
-    </div>
-    <div>
-      <img src="../../assets/heroes.png">
-    </div>
+  <div class="conteudo">
+    <ion-card>
+      <ion-card-content>
+        <section>
+          <div>
+            <img src="../../assets/logo.svg">
+          </div>
+          <form>
+            <h1 class="titulo">
+              Faça seu Logon
+            </h1>
+            <ion-input placeholder="Sua ID"></ion-input>
+            <ion-button class="buttonLogin" expand="block" fill="clear">Entrar</ion-button>
+          </form>
+          <div>
+            <a routerLink="/register">
+              <ion-icon name="log-in"></ion-icon>
+              <ion-label>Não tenho cadastro</ion-label>
+            </a>
+            <!-- <ion-button class="link" fill="clear" routerLink="/register">
+        </ion-button> -->
+          </div>
+        </section>
+        <section>
+          <img src="../../assets/heroes.png">
+        </section>
+      </ion-card-content>
+    </ion-card>
   </div>
 </ion-content>
