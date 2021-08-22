@@ -2,3 +2,29 @@ ion-img {
     max-width: 120px;
     margin: 0 auto;
 }
+
+section {
+    width: 45%;
+}
+
+ion-button {
+    width: 100%;
+}
+
+ion-grid, ion-row {
+    padding: 0;
+}
+
+.cancelar {
+    --background: transparent;
+    --color: #41414d;
+    --border-color:#89899c; 
+}
+
+ion-textarea {
+    margin-bottom: 10px;
+    height: 200px;
+}
+
+
+

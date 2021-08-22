@@ -1,0 +1,23 @@
+.titulo-caso h3 {
+    font-weight: bold;
+}
+
+ion-fab-button{
+    --background: #e02041;
+}
+
+ion-fab-button ion-icon {
+    color: white;
+}
+
+ion-card, ion-card-content {
+    justify-content: flex-start;
+}
+
+ion-card {
+    padding: 10px;
+}
+
+article {
+    padding: 14px 6px 0 0;
+}
